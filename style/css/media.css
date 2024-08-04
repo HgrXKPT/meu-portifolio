@@ -1,0 +1,72 @@
+/* celulares  */
+@media(max-width:450px) {
+    nav {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .texto-principal p {
+    
+        font-size: 1.2em;
+    }
+
+ 
+
+    #foto-minha {
+        width: 130px;
+        height: 200px;
+
+    }
+
+    .foto {
+        margin-right: 10%;
+    }
+
+    .conteudo-principal {
+        gap: 0;
+        width: 110%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    
+    }
+
+    #logo-github {
+        width: 50px;
+    }
+
+    #logo-linkedin {
+        width: 50px;
+    }
+
+    #foto-minha{
+        margin-top: -1em;
+    }
+
+
+}
+
+
+/* Tablet*/
+
+@media(max-width:1024px) {
+    section .nav-list {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+
+    }
+
+    .conteudo-principal {
+        gap: 0;
+        width: 110%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+
+
+
+
+}
