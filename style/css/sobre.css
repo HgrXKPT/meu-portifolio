@@ -1,0 +1,33 @@
+
+.sobre{
+    width: 80%;
+    gap: 30%;
+    
+}
+
+
+.sobre #titulo-mais-info{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre #paragrafo-info{
+    width: 70%;
+
+}
+
+.sobre h2{
+    font-size: 2em;
+}
+
+#botao-certificado{
+    margin-top: 2em;
+}
+
+.sobre .skills .logos img:hover{
+    transform: scale(1.12);
+}
+
+.sobre .skills .logos img{
+    transition: transform 0.2s ease-in; 
+}
