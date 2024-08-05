@@ -1,0 +1,105 @@
+/* celulares  */
+@media(max-width:450px) {
+    nav {
+        padding-left: 6%;
+        padding-right: 6%;
+        
+    }
+
+    nav h2{
+        font-size: 1.4em;
+    }
+
+    .texto-principal p {
+        font-size: 1.2em;
+    }
+
+
+    #foto-minha {
+        width: 130px;
+        height: 200px;
+
+    }
+
+    .foto {
+        margin-right: 10%;
+    }
+
+    .conteudo-principal {
+        gap: 0;
+        width: 110%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    
+    }
+
+    #logo-github {
+        width: 50px;
+    }
+
+    #logo-linkedin {
+        width: 50px;
+    }
+
+    #foto-minha{
+        margin-top: -1em;
+    }
+
+    .container{
+        width: 70%;
+    }
+
+   
+    nav .titulo{
+        margin-left: 0;
+        font-size: 1em;
+    }
+
+    nav .mobile-menu {
+        display: block;
+        
+    }
+
+    .texto-principal #titulo-apresentacao{
+        font-size: 2em;
+    }
+
+    .sobre #titulo-mais-info{
+    font-size: 2em;
+}
+
+    .sobre{
+        margin-top: 0;
+     }
+
+}
+
+
+/* Tablet*/
+
+@media(max-width:1024px) {
+    section .nav-list {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+
+    }
+
+    .conteudo-principal {
+        gap: 0;
+        width: 110%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .texto-principal #titulo{
+        font-size: 3em;
+    }
+
+
+
+
+
+}
