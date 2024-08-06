@@ -29,3 +29,12 @@ revelar.reveal('.nav-efeito',
         origin: 'top'
 
 })
+
+revelar.reveal('.projetos-efeito', 
+    {
+        duration:3000,
+        distance: '90px',
+        origin: 'top',
+        viewFactor: 0.2
+
+})
