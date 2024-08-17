@@ -3,14 +3,28 @@
     nav {
         padding-left: 6%;
         padding-right: 6%;
+
     }
 
+    nav h2 {
+        font-size: 1.4em;
+    }
+
+    nav .titulo {
+        margin-left: 0;
+        font-size: 1em;
+    }
+
+    nav .mobile-menu {
+        display: block;
+
+    }
+
+    /*Media para a parte da apresentação*/
     .texto-principal p {
-    
         font-size: 1.2em;
     }
 
- 
 
     #foto-minha {
         width: 130px;
@@ -27,7 +41,7 @@
         width: 110%;
         flex-wrap: wrap-reverse;
         justify-content: center;
-    
+
     }
 
     #logo-github {
@@ -38,10 +52,42 @@
         width: 50px;
     }
 
-    #foto-minha{
+    #foto-minha {
         margin-top: -1em;
     }
 
+    .container {
+        width: 70%;
+    }
+
+    .texto-principal #titulo-apresentacao {
+        font-size: 2em;
+    }
+
+    /*Media para a parte sobre */
+    .sobre #titulo-mais-info {
+        font-size: 2em;
+    }
+
+    .sobre h2 {
+        font-size: 1.7em;
+    }
+
+    .sobre {
+        margin-top: 0;
+    }
+
+    .sobre {
+        width: 110%;
+        gap: 30%;
+
+
+    }
+    
+    .meus-projetos{
+        width: 110%;
+        
+    }
 
 }
 
@@ -53,11 +99,8 @@
         display: none;
     }
 
-    .mobile-menu {
-        display: block;
 
-    }
-
+    /*Apresentação*/
     .conteudo-principal {
         gap: 0;
         width: 110%;
@@ -65,6 +108,30 @@
         justify-content: center;
     }
 
+    .container p {
+        font-size: 1.3em;
+    }
+
+    /*Sobre*/
+    .sobre #titulo-mais-info {
+        font-size: 2.5em;
+
+    }
+
+
+    .meus-projetos{
+        width: 120%;
+        
+    }
+
+
+
+
+    /*Mobile*/
+    .mobile-menu {
+        display: block;
+
+    }
 
 
 
